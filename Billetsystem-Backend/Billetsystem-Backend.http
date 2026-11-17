@@ -1,0 +1,6 @@
+@Billetsystem_Backend_HostAddress = http://localhost:5109
+
+GET {{Billetsystem_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
