@@ -1,6 +1,11 @@
-﻿namespace Billetsystem_Backend.Data;
+﻿using Microsoft.EntityFrameworkCore;
 
-public class BilletsystemDbContext
+namespace Billetsystem_Backend.Data;
+
+public class BilletDbContext : DbContext
 {
+    public BilletDbContext(DbContextOptions<BilletDbContext> options)
+        : base(options) {}
+    
     
 }

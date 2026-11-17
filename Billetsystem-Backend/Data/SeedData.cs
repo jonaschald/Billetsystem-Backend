@@ -2,5 +2,8 @@
 
 public class SeedData
 {
-    
+    public static void Initialize(BilletDbContext context)
+    {
+        // Tilføj data her
+    }
 }
