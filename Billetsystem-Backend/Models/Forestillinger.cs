@@ -4,14 +4,12 @@ public class Forestillinger
 {
     public int Id { get; set; }
     public string Titel { get; set; } = string.Empty;
-
     public int TeatersalId { get; set; }
     public Teatersal? Teatersal { get; set; }
-
     public string KortBeskrivelse { get; set; } = string.Empty;
     public string Beskrivelse { get; set; } = string.Empty;
-
     public SalgsType SalgsType { get; set; }
+    public string BilledeUrl { get; set; } = string.Empty;
 }
 
 public enum SalgsType
